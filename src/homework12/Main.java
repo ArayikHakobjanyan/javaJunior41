@@ -5,5 +5,7 @@ public class Main{
         Hen hen = HenFactory.getHеn("Беларусь");
         hen.getCountOfEggsPerMonth();
         System.out.print(hen.getDescription());
+        System.out.println();
+        System.out.println();
     }
 }
